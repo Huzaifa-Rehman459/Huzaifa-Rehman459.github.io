@@ -1,0 +1,514 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background-color: #ddd;
+}
+.nav{
+    width: 100%;
+    height: 8rem;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    padding: 5rem;
+}
+.left-nav{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 30px;
+}
+.left-nav img{
+    width: 250px;
+    height: 250px;
+}
+.center-nav{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.center-nav a{
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    font-size: 1.3rem;
+    font-weight: 500;
+    transition: all 0.5s ease;
+}
+.center-nav a:hover{
+    color: grey;
+}
+.right-nav{
+    height: 100%;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.right-nav .login{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 20px;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+.login:hover{
+    color: grey;
+}
+.login p{
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+.right-nav button{
+    height: 60px;
+    width: 200px;
+    border:none;
+    border-radius: 7px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: white;
+    background-color: black;
+    padding: 7px;
+    transition: all 0.5s ease;
+}
+.right-nav button:hover{
+    background-color: grey;
+    transform: translateY(5px);
+}
+.container{
+    height: 100vh;
+    width: 100%;
+}
+.container .hero-text{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.hero-text .text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text h6{
+    font-size: 4.8rem;
+    padding: 20px;
+    background-color: #75D093;
+    border-radius: 8px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+}
+.hero-text h1{
+    font-size: 4.8rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero-text p{
+    padding: 10px;
+    font-weight: 400;
+}
+.promotion{
+    height: 170px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    gap: 15px;
+}
+.marketing{
+    background-color: #ECECECAB;
+    border: 2px solid #086CD9;
+    border-radius: 10px;
+    width: 20%;
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    gap: 8px;
+    transition: all 0.5s ease;
+}
+.marketing:hover{
+    background-color: #ddd;
+}
+.marketing i{
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #086CD9;
+}
+.marketing p{
+    color: #086CD9;
+    font-weight: 300;
+}
+.patnership{
+    background-color: #ECECECAB;
+    border-radius: 10px;
+    width: 20%;
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    gap: 8px;
+    transition: all 0.5s ease;
+}
+.patnership:hover{
+    background-color: #ddd;
+}
+.patnership i{
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: black;
+}
+.patnership p{
+    color: black;
+    font-weight: 300;
+}
+.one{
+    background-color: #ECECECAB;
+    border-radius: 10px;
+    width: 20%;
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    gap: 8px;
+    transition: all 0.5s ease;
+}
+.one:hover{
+    background-color: #ddd;
+}
+.one i{
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: black;
+}
+.one p{
+    color: black;
+    font-weight: 300;
+}
+.cards{
+    margin-top: 30px;
+    width: 100%;
+    height: 920px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.card1{
+    width: 22%;
+    height: 940px;
+    background-color: #FFFFFF;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+.card1-box{
+    margin: 30px;
+    width: 80%;
+    height: 200px;
+    background-color: #FFD466;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.card1-box p{
+    font-weight: 600;
+    font-size: 1.7rem;
+}
+.card1-box h1{
+    font-weight: 600;
+    font-size: 3.1rem;
+}
+.card1 .inner-text{
+    padding: 0 35px;
+    line-height: 1.6rem;
+}
+.card1 .inner-text h3{
+    font-weight: 600;
+    font-size: 1.6rem;
+    margin-bottom: 6px;
+}
+.card1 .inner-text p{
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+.card1 .inner-text h6{
+    width: 70%;
+    font-weight: 300;
+    font-size: 0.9rem;
+}
+.card1 .card-icons{
+    display: flex;
+    flex-direction: column;
+    padding: 15px 35px;
+    width: 100%;
+}
+.card-icons i{
+    font-weight: 500;
+    font-size: 1.7rem;
+}
+.card-icons span{
+    font-weight: 500;
+    font-size: 1rem;
+    position: relative;
+    bottom: 27px;
+    left: 35px;
+}
+.card1 button{
+    height: 60px;
+    width: 60%;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    margin-left: 75px;
+    margin-bottom: 15px;
+    transition: all 0.5s ease;
+}
+.card1 button:hover{
+    background-color: black;
+    color: #ddd;
+    transform: translateY(5px);
+}
+.card2{
+    width: 22%;
+    height: 940px;
+    background-color: #FFFFFF;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+.card2-box{
+    margin: 30px;
+    width: 80%;
+    height: 200px;
+    background-color: #BDC4FF;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.card2-box p{
+    font-weight: 600;
+    font-size: 1.7rem;
+}
+.card2-box h1{
+    font-weight: 600;
+    font-size: 3.1rem;
+}
+.card2 .inner-text{
+    padding: 0 35px;
+    line-height: 1.6rem;
+}
+.card2 .inner-text h3{
+    font-weight: 600;
+    font-size: 1.6rem;
+    margin-bottom: 6px;
+}
+.card2 .inner-text p{
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+.card2 .inner-text h6{
+    width: 70%;
+    font-weight: 300;
+    font-size: 0.9rem;
+}
+.card2 .card-icons{
+    display: flex;
+    flex-direction: column;
+    padding: 15px 35px;
+    width: 100%;
+}
+.card-icons i{
+    font-weight: 500;
+    font-size: 1.7rem;
+}
+.card-icons span{
+    font-weight: 500;
+    font-size: 1rem;
+    position: relative;
+    bottom: 27px;
+    left: 35px;
+}
+.card2 button{
+    height: 60px;
+    width: 60%;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    margin-left: 75px;
+    margin-bottom: 15px;
+    transition: all 0.5s ease;
+}
+.card2 button:hover{
+    background-color: black;
+    color: #ddd;
+    transform: translateY(5px);
+}
+.card3{
+    width: 22%;
+    height: 940px;
+    background-color: #FFFFFF;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+.card3-box{
+    margin: 30px;
+    width: 80%;
+    height: 200px;
+    background-color: #FF9A8D;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.card3-box p{
+    font-weight: 600;
+    font-size: 1.7rem;
+}
+.card3-box h1{
+    font-weight: 600;
+    font-size: 3.1rem;
+}
+.card3 .inner-text{
+    padding: 0 35px;
+    line-height: 1.6rem;
+}
+.card3 .inner-text h3{
+    font-weight: 600;
+    font-size: 1.6rem;
+    margin-bottom: 6px;
+}
+.card3 .inner-text p{
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+.card3 .inner-text h6{
+    width: 70%;
+    font-weight: 300;
+    font-size: 0.9rem;
+}
+.card3 .card-icons{
+    display: flex;
+    flex-direction: column;
+    padding: 15px 35px;
+    width: 100%;
+}
+.card-icons i{
+    font-weight: 500;
+    font-size: 1.7rem;
+}
+.card-icons span{
+    font-weight: 500;
+    font-size: 1rem;
+    position: relative;
+    bottom: 27px;
+    left: 35px;
+}
+.card3 button{
+    height: 60px;
+    width: 60%;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    margin-left: 75px;
+    margin-bottom: 15px;
+    transition: all 0.5s ease;
+}
+.card3 button:hover{
+    background-color: black;
+    color: #ddd;
+    transform: translateY(5px);
+}
+.card4{
+    width: 22%;
+    height: 940px;
+    background-color: #FFFFFF;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+.card4-box{
+    margin: 30px;
+    width: 80%;
+    height: 200px;
+    background-color: #75D093;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.card4-box p{
+    font-weight: 600;
+    font-size: 1.7rem;
+}
+.card4-box h1{
+    font-weight: 600;
+    font-size: 3.1rem;
+}
+.card4 .inner-text{
+    padding: 0 35px;
+    line-height: 1.6rem;
+}
+.card4 .inner-text h3{
+    font-weight: 600;
+    font-size: 1.6rem;
+    margin-bottom: 6px;
+}
+.card4 .inner-text p{
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+.card4 .inner-text h6{
+    width: 70%;
+    font-weight: 300;
+    font-size: 0.9rem;
+}
+.card4 .card-icons{
+    display: flex;
+    flex-direction: column;
+    padding: 15px 35px;
+    width: 100%;
+}
+.card-icons i{
+    font-weight: 500;
+    font-size: 1.7rem;
+}
+.card-icons span{
+    font-weight: 500;
+    font-size: 1rem;
+    position: relative;
+    bottom: 27px;
+    left: 35px;
+}
+.card4 button{
+    height: 60px;
+    width: 60%;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    margin-left: 75px;
+    margin-bottom: 15px;
+    transition: all 0.5s ease;
+}
+.card4 button:hover{
+    background-color: black;
+    color: #ddd;
+    transform: translateY(5px);
+}
