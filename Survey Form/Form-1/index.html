@@ -1,1 +1,126 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Survey Form</title>
+</head>
+<body>
+    <h1>Hello! Complete the Survey</h1>
+    <form id="form">
+        <!-- Name form -->
+        <div class="form-control">
+            <label for="name" id="label-name">
+                Name</label>
+            <input type="text" 
+            id="name"
+             placeholder="Enter your name">
+        </div>
+        <!-- Email form -->
+        <div class="form-control">
+            <label for="email" id="label-email">
+                Email</label>
+            <input type="email"
+            id="email"
+            placeholder="Enter your email">    
+        </div>
+        <!-- Age form -->
+        <div class="form-control">
+            <label for="age" id="label-age">
+                Age
+            </label>
+            <input type="text"
+            id="age"
+            placeholder="Enter your age">
+        </div>
+        <!-- Select box -->
+        <div class="form-control">
+            <label for="role" id="label-role">
+                Which option best describes you?
+            </label>
+            <select name="role" id="role">
+                <option value="student">Student</option>
+                <option value="inter">Inter</option>
+                <option value="professional">Professional</option>
+            </select>
+        </div>
+            <!-- Radio section -->
+            <div class="form-control">
+                <label>
+                    Which is your favourite game?
+                </label>
+                <label for="recommed-1">
+                    <input type="radio"
+                    id="recommed-1"
+                    name="recommed">PUBG
+                </label>
+                <label for="recommed-2">
+                    <input type="radio"
+                    id="recommed-2"
+                    name="recommed">Free Fire
+                </label>
+                <label for="recommed-3">
+                    <input type="radio"
+                    id="recommed-3"
+                    name="recommed">Call of Duty
+                </label>
+            </div>
+            <!-- Check-box box -->
+            <div class="form-control">
+                <label>
+                    Mark your Hobbies 
+                    <small>(mark all that apply)</small>
+                </label>
+                <label for="inp-1">
+                    <input type="checkbox"
+                    id="inp-1"
+                    name="inp">Badminton
+                </label>
+                <label for="inp-2">
+                    <input type="checkbox"
+                    id="inp-2"
+                    name="inp">Baseball
+                </label>
+                <label for="inp-3">
+                    <input type="checkbox"
+                    id="inp-3"
+                    name="inp">Cricket
+                </label>
+                <label for="inp-4">
+                    <input type="checkbox"
+                    id="inp-4"
+                    name="inp">Shopping
+                </label>
+                <label for="inp-5">
+                    <input type="checkbox"
+                    id="inp-5"
+                    name="inp">Watching Darams
+                </label>
+                <label for="inp-6">
+                    <input type="checkbox"
+                    id="inp-6"
+                    name="inp">Reading Books
+                </label>
+                <label for="inp-7">
+                    <input type="checkbox"
+                    id="inp-7"
+                    name="inp">E-Gaming
+                </label>
+            </div>
+            <!-- Commnet-section -->
+            <div class="form-control">
+                <label for="comment">
+                    Any comments or suggestions</label>
+                <textarea name="comment" id="comment"
+                placeholder="Enter your comment">
+            </textarea>
+            </div>
+            <!-- Button -->
+            <button type="submit" value="submit">
+                Submit
+            </button>
+    </form>
+</body>
+</html>
