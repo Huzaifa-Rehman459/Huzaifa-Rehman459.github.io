@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;500;600;700;800&family=Permanent+Marker&family=Poppins:wght@100;300;400;500;600;700;800;900&family=Romanesco&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrst,sans-serif;
+}
+#main{
+    height: 100vh;
+    width: 100%;
+}
+.navbar{
+    position: fixed;
+    height: 96px;
+    width: 100%;
+    background-color:transparent;
+}
+.navbar img{
+    height: 26px;
+    width: 80px;   
+    margin-top: 30px; 
+    margin-left: 50px;
+}
+.navbar span{
+    color: #39B54A;
+    font-size: 15px;
+    font-weight: 800;
+    display: block;
+    position: absolute;
+    top:2.5rem;
+    left: 92.4rem;
+    width: 70px;
+    letter-spacing: 3px;
+    transition: all .50s ease-in-out;
+}
+.navbar span:hover{
+    color: #ffffff;
+    cursor: pointer;
+}
+.navbar i{
+    color: #fff;
+    position: absolute;
+    top: 2.5rem;
+    left: 96.5rem;
+    font-size: 20px;
+}
+.heroimg img{
+    height: 100vh;
+    width: 100%;
+}
+.hero-text{
+    margin: 0 138px 0 138px;
+    padding: 210px 80px 0 0;
+}
+.hero-text h3{
+    color: #FFFFFF80;
+    position: absolute;
+    top: 15em;
+    margin: 0 0 12px 6px;
+    font-size: 17px;
+    letter-spacing: 3px;
+}
+.hero-text h1{
+    color: #ffffff;
+    position: absolute;
+    bottom: 175px;
+    margin: 0 0 18px;
+    letter-spacing: 3px;
+    font-size: 60px;
+}
+#btn1{
+    color: #fff;
+    position: absolute;
+    bottom: 100px;
+    left: 120px;
+    font-size: 13px;
+    border: 1px solid #fff;
+    background: transparent;
+    width: 210px;
+    height: 50px;
+    margin: 15px 15px 0 0;
+    padding: 0 30px;
+    text-transform: uppercase;
+    transition: all .50s ease-in-out;
+}
+.buttons #btn1:hover{
+    background-color: #fff;
+    color: black;
+}
+#btn2{
+    color: #fff;
+    position: absolute;
+    bottom: 100px;
+    left: 350px;
+    font-size: 13px;
+    border: 1px solid #fff;
+    background: transparent;
+    width: 210px;
+    height: 50px;
+    margin: 15px 15px 0 0;
+    padding: 0 30px;
+    text-transform: uppercase;
+    transition: all .50s ease-in-out;
+}
+.buttons #btn2:hover{
+    background-color: #fff;
+    color: black;
+}
+.social-icons{
+    position: absolute;
+    top: 300px;
+    right: 100px;
+    height: 33px;
+    width: 33px;
+}
+.social-icons i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+    width: 33px;
+    height: 33px;
+    margin-bottom: 18px;
+    transition: all .55s ease;
+}
+.social-icons i:hover{
+    transform: translateY(-10px);
+    color: #39B54A;
+}
+.scroll-down{
+    position: absolute;
+    bottom: 90px;
+    right: 140px;
+    transition: all .55s ease;
+}
+.scroll-down a{
+    text-decoration: none;
+}
+.scroll-down span{
+    color: #39B54A;
+
+}
+.scroll-down i{
+    color: #ffffff;
+    font-size: 17px;
+    padding: 0 0 0 25px;
+    margin-right: 5px;
+}
+.scroll-down:hover{
+    transform: translateY(5px);
+}
+/* Second-Page */
+.sec-page{
+    background-color: #39B54A;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.description h3{
+    position: absolute;
+    top: 850px;
+    right: 750px;
+    color: #000000;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+.description h1{
+    position: absolute;
+    top: 900px;
+    right: 560px;
+    color: #ffffff;
+    font-size: 4em;
+    text-transform: uppercase;
+    margin: 0 0 18px;
+}
+.description h2{
+    position: absolute;
+    top: 42em;
+    right: 570px;
+    color: #ffffff;
+}
+.description p{
+    color: #010507;
+    width: 825px;
+    height: 280px;
+    position: absolute;
+    left: 430px;
+    font-size: 25px;
+}
+.stats{
+   width: 100%;
+   height: 300px;
+}
+.firstbox h1{
+    position: absolute;
+    top: 82rem;
+    left: 10rem;
+    font-size: 5em;
+    color: #FFFFFF;
+}
+.firstbox span{
+    position: absolute;
+    top: 87rem;
+    left: 10rem;
+    margin-top: 15px;
+}
+.sec-box h1{
+    position: absolute;
+    top: 82rem;
+    left: 30rem;
+    font-size: 5em;
+    color: #FFFFFF;
+}
+.sec-box span{
+    position: absolute;
+    top: 87rem;
+    left: 32rem;
+    margin-top: 15px;
+}
+.third-box h1{
+    position: absolute;
+    top: 82rem;
+    left: 55rem;
+    font-size: 5em;
+    color: #FFFFFF;
+}
+.third-box span{
+    position: absolute;
+    top: 87rem;
+    left: 55rem;
+    margin-top: 15px;
+}
+.fourth-box h1{
+    position: absolute;
+    top: 82rem;
+    left: 80rem;
+    font-size: 5em;
+    color: #FFFFFF;
+}
+.fourth-box span{
+    position: absolute;
+    top: 87rem;
+    left: 81.5rem;
+    margin-top: 15px;
+}
